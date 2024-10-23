@@ -1,0 +1,81 @@
+html {
+  background: url(img/sky.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  width: 500px;
+  margin: 25px auto;
+  margin-top: 20px;
+  padding: 50px 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  padding: 5px 30px;
+  margin-top: 10px;
+  background-color: skyblue;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background: darkblue;
+  color: white;
+
+  transition: color 1s;
+  transition: background 1s;
+}
+
+.button2 {
+  background-color: coral;
+  margin-left: 5px;
+}
+
+.button2:hover {
+  background: darkred;
+  color: white;
+
+  transition: color 1s;
+  transition: background 1s;
+}
+
+h1 {
+  font-size: 47px;
+  font-variant: small-caps;
+}
+
+h1,
+h2 {
+  color: midnightblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.style {
+  font-variant: small-caps;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+ol {
+  margin-left: 75px;
+}
+
+.result {
+  border: 1px solid orange;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
+
+.list-container {
+  background-color: white;
+  border: solid orange 1px;
+  border-radius: 15px;
+}
